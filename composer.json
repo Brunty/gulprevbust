@@ -1,0 +1,27 @@
+{
+    "name": "brunty/gulprevbust",
+    "description": "A twig template function to use with gulp-rev for cache busting on Bolt sites.",
+    "type": "bolt-extension",
+    "require": {
+        "bolt/bolt": ">=2.0.0,<3.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matt Brunt",
+            "email": "matt@mfyu.co.uk"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "init.php"
+        ],
+        "psr-4": {
+            "Bolt\\Extension\\Brunty\\GulpRevBust\\": "./"
+        }
+    },
+    
+    "extra": {
+        "bolt-assets": "assets"
+    }
+}
