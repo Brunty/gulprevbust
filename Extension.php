@@ -2,7 +2,6 @@
 
 namespace Bolt\Extension\Brunty\GulpRevBust;
 
-use Bolt\Application;
 use Bolt\BaseExtension;
 
 /**
@@ -20,7 +19,7 @@ class Extension extends BaseExtension
      *
      */
     public function initialize() {
-        $this->addTwigFunction('gulp_rev_bust', 'gulpRevBust');
+        //$this->addTwigFunction('gulp_rev_bust', 'gulpRevBust');
     }
 
     /**
@@ -34,7 +33,6 @@ class Extension extends BaseExtension
     /**
      * @param string $accessorName
      * @return string
-     */
     public function gulpRevBust($accessorName = '') {
         if(trim($accessorName) == '') {
             return '';
@@ -51,17 +49,17 @@ class Extension extends BaseExtension
 
         return isset($options[$accessorName]) ? $options[$accessorName]: '';
     }
+    */
 
     /**
      * @return string
-     */
     protected function getDefaultFilename() {
         return 'rev-manifest.json';
     }
 
+     */
     /**
      * @return string
-     */
     protected function getManifestFileName()
     {
         // get location of our gulp-rev manifest file
@@ -70,6 +68,7 @@ class Extension extends BaseExtension
         return $filePath;
     }
 
+     */g
 
 }
 
