@@ -1,5 +1,5 @@
 <?php
 
-namespace Bolt\Extension\Brunty\GulpRevBust;
+use Bolt\Extension\Brunty\GulpRevBust\Extension;
 
 $app['extensions']->register(new Extension($app));

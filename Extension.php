@@ -29,9 +29,6 @@ class Extension extends BaseExtension
     {
         return Extension::NAME;
     }
-
-
-
 }
 
 
