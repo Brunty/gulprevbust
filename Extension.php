@@ -30,45 +30,7 @@ class Extension extends BaseExtension
         return Extension::NAME;
     }
 
-    /**
-     * @param string $accessorName
-     * @return string
-    public function gulpRevBust($accessorName = '') {
-        if(trim($accessorName) == '') {
-            return '';
-        }
 
-        $fileName = $this->getManifestFileName();
-
-
-        if( ! file_exists($fileName)) {
-            return '';
-        }
-
-        $options = json_decode(file_get_contents($fileName), true);
-
-        return isset($options[$accessorName]) ? $options[$accessorName]: '';
-    }
-    */
-
-    /**
-     * @return string
-    protected function getDefaultFilename() {
-        return 'rev-manifest.json';
-    }
-
-     */
-    /**
-     * @return string
-    protected function getManifestFileName()
-    {
-        // get location of our gulp-rev manifest file
-        $file = isset($this->config['rev_file']) ? $this->config['rev_file'] : $this->getDefaultFilename();
-        $filePath = $this->app['paths']['themepath'] . '/' . $file;
-        return $filePath;
-    }
-
-     */g
 
 }
 
