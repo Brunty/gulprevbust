@@ -15,8 +15,7 @@
     ],
     "autoload": {
         "files": [
-            "init.php",
-            "Extension.php"
+            "init.php"
         ],
         "psr-4": {
             "Bolt\\Extension\\Brunty\\GulpRevBust\\": ""
