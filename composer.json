@@ -2,6 +2,7 @@
     "name": "brunty/gulprevbust",
     "description": "A twig template function to use with gulp-rev for cache busting on Bolt sites.",
     "type": "bolt-extension",
+    "keywords": ["gulp", "cache-busting", "revisions", "css", "javascript"],
     "require": {
         "bolt/bolt": ">=2.0.0,<3.0.0"
     },
