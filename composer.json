@@ -21,10 +21,5 @@
         "psr-4": {
             "Bolt\\Extension\\Brunty\\GulpRevBust\\": ""
         }
-    },
-    "extra": {
-        "branch-alias" : {
-            "dev-master" : "0.1.1"
-        }
     }
 }
